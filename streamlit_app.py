@@ -110,9 +110,10 @@ soh_color   = C["good"] if avg_soh >= 90 else (C["moderate"] if avg_soh >= 80 el
 # ---------------------------------------------------------------------------
 # Header
 # ---------------------------------------------------------------------------
+muted = C["muted"]
 st.markdown(
     f"<h2 style='margin-bottom:0'>Battery Fleet Health</h2>"
-    f"<span style='font-size:0.82rem; color:{C[\"muted\"]}'>CALCE CS2  |  6 cells  |  5,515 cycles</span>",
+    f"<span style='font-size:0.82rem; color:{muted}'>CALCE CS2  |  6 cells  |  5,515 cycles</span>",
     unsafe_allow_html=True,
 )
 st.markdown("---")
