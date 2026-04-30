@@ -1,0 +1,11 @@
+health_tier  Good  Moderate  Weak   All
+cluster                                
+0            2735       862   560  4157
+1               0         0  1200  1200
+2              98         0     0    98
+All          2833       862  1760  5455
+
+Cluster Interpretations:
+  Cluster 0: HIGH-HEALTH — High SOH (92.2%), low fade rate, low resistance. Matches 'Good' tier.
+  Cluster 1: SEVERE-DEGRADATION — Low SOH (42.8%), steep capacity fade, high resistance. Matches 'Weak' tier.
+  Cluster 2: HIGH-HEALTH — High SOH (107.5%), low fade rate, low resistance. Matches 'Good' tier.

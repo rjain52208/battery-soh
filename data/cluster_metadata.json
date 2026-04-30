@@ -1,0 +1,74 @@
+{
+  "adjusted_rand_index": 0.32141277908114124,
+  "inertia": 31612.125401727575,
+  "pca_explained_variance": [
+    0.26692249490993347,
+    0.19368647165258246
+  ],
+  "centroids": {
+    "0": {
+      "capacity_fade_rate": -0.00043434283319332244,
+      "resistance_growth_rate": 3.766726210850032e-05,
+      "average_charge_discharge_ratio": 1.0093997768807204,
+      "voltage_delta_trend": 1.3448402736071211e-05,
+      "cycle_count": 421.3233100793842,
+      "current_discharge_capacity": 0.9576175146619026,
+      "current_SOH": 92.15082414653193,
+      "capacity_variance_last_10_cycles": 0.00137974392933716,
+      "energy_efficiency": 0.6412441936201937
+    },
+    "1": {
+      "capacity_fade_rate": -0.0024341340275631025,
+      "resistance_growth_rate": 0.00010498391634976843,
+      "average_charge_discharge_ratio": 1.0108034175909717,
+      "voltage_delta_trend": -6.627954936130672e-05,
+      "cycle_count": 620.6400000000001,
+      "current_discharge_capacity": 0.4429317314781617,
+      "current_SOH": 42.77144502331397,
+      "capacity_variance_last_10_cycles": 0.0013022944926114912,
+      "energy_efficiency": 0.6414417153459164
+    },
+    "2": {
+      "capacity_fade_rate": 0.048561185454997574,
+      "resistance_growth_rate": -0.0022061729519522247,
+      "average_charge_discharge_ratio": 0.9997553260826296,
+      "voltage_delta_trend": 1.56506441835577e-05,
+      "cycle_count": 724.530612244898,
+      "current_discharge_capacity": 1.119818240537937,
+      "current_SOH": 107.48179635537726,
+      "capacity_variance_last_10_cycles": 0.09225407210254992,
+      "energy_efficiency": 0.6512617476539636
+    }
+  },
+  "interpretations": [
+    "Cluster 0: HIGH-HEALTH \u2014 High SOH (92.2%), low fade rate, low resistance. Matches 'Good' tier.",
+    "Cluster 1: SEVERE-DEGRADATION \u2014 Low SOH (42.8%), steep capacity fade, high resistance. Matches 'Weak' tier.",
+    "Cluster 2: HIGH-HEALTH \u2014 High SOH (107.5%), low fade rate, low resistance. Matches 'Good' tier."
+  ],
+  "crosstab": {
+    "Good": {
+      "0": 2735,
+      "1": 0,
+      "2": 98,
+      "All": 2833
+    },
+    "Moderate": {
+      "0": 862,
+      "1": 0,
+      "2": 0,
+      "All": 862
+    },
+    "Weak": {
+      "0": 560,
+      "1": 1200,
+      "2": 0,
+      "All": 1760
+    },
+    "All": {
+      "0": 4157,
+      "1": 1200,
+      "2": 98,
+      "All": 5455
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "labels": [
+    "Good",
+    "Moderate",
+    "Weak"
+  ],
+  "xgb_confusion_matrix": [
+    [
+      828,
+      0,
+      0
+    ],
+    [
+      0,
+      248,
+      2
+    ],
+    [
+      0,
+      6,
+      492
+    ]
+  ],
+  "xgb_accuracy": 0.9949238578680203,
+  "lr_accuracy": 0.9467005076142132,
+  "feature_importances": {
+    "capacity_fade_rate": 0.007089992053806782,
+    "resistance_growth_rate": 0.0030966498889029026,
+    "average_charge_discharge_ratio": 0.03085257112979889,
+    "voltage_delta_trend": 0.0021339773666113615,
+    "cycle_count": 0.038092274218797684,
+    "current_discharge_capacity": 0.48638227581977844,
+    "current_SOH": 0.4055560529232025,
+    "capacity_variance_last_10_cycles": 0.006481897551566362,
+    "energy_efficiency": 0.02031436190009117
+  }
+}
