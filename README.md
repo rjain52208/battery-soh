@@ -2,7 +2,7 @@
 
 An end-to-end machine learning pipeline that predicts lithium-ion battery health tiers from real-world cycling data. The project ingests raw measurements from the CALCE CS2 battery dataset, engineers degradation-aware features, trains an XGBoost classifier achieving 99.5% accuracy, and surfaces results through an interactive Streamlit dashboard.
 
-**Live dashboard:** [battery-soh.streamlit.app](https://battery-soh.streamlit.app)
+**Live dashboard:** [battery-soh-riddhijain.streamlit.app](https://battery-soh-riddhijain.streamlit.app/)
 
 ---
 
